@@ -1,6 +1,6 @@
 ## Shrine Efficiency Run
 
-Visit the checklist [here](http://zkjellberg.github.io/shrine-efficiency-run/).
+Visit the checklist [here](http://baartd.github.io/shrine-efficiency-run/).
 
 Checklist was made by editting the source code from [Dark Souls 3 Cheat Sheet](https://github.com/ZKjellberg/dark-souls-3-cheat-sheet) made by [Zachary Kjellberg](https://github.com/zkjellberg). Please go and check him out.
 His checklist is pretty darn awesome!
