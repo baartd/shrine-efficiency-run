@@ -12,11 +12,37 @@
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<link rel="apple-touch-icon" sizes="57x57" href="/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/img/favicon-194x194.png" sizes="194x194">
+	<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/img/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/img/manifest.json">
+	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#e74c3c">
+	<link rel="shortcut icon" href="/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="/img/browserconfig.xml">
+	<meta name="theme-color" content="#e74c3c">
 </head>
 
 <body>
 	<br>
 	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1>Shrine Efficiency Run</h1>
+			</div>
+		</div>
 		<h2>Playthrough Checklist <span id="playthrough_overall_total"></span></h2>
 		<ul class="table_of_contents">
 			<li><a href="#CoA">Cemetery of Ash</a> <span id="playthrough_nav_totals_1"></span></li>
@@ -25,15 +51,11 @@
 			<li><a href="#US">Undead Settlement</a> <span id="playthrough_nav_totals_4"></span></li>
 			<li><a href="#RoS">Road of Sacrifices</a> <span id="playthrough_nav_totals_5"></span></li>
 			<li><a href="#RoS-FK">Road of Sacrifices - Farron Keep</a> <span id="playthrough_nav_totals_6"></span></li>
-			<hr>
 			<li><a href="#Pit_stop_1">Firelink Shrine pit stop 1</a> <span id="playthrough_nav_totals_7"></span></li>
-			<hr>
 			<li><a href="#US-CUB">Undead Settlement - Cliff Underside Bonfire</a> <span id="playthrough_nav_totals_8"></span></li>
 			<li><a href="#RoS-CWB">Road of Sacrifices - Crucifixion Woods Bonfire</a> <span id="playthrough_nav_totals_9"></span></li>
 			<li><a href="#CotD">Cathedral of the Deep</a> <span id="playthrough_nav_totals_10"></span></li>
-			<hr>
 			<li><a href="#Pit_stop_2">Firelink Shrine pit stop 2</a> <span id="playthrough_nav_totals_11"></span></li>
-			<hr>
 			<li><a href="#CotD_siris">Cathedral of the Deep (KILLED SIRRIS)</a> <span id="playthrough_nav_totals_12"></span></li>
 			<li><a href="#RoS-FKB">Road of Sacrifices - Farron Keep Bonfire</a> <span id="playthrough_nav_totals_13"></span></li>
 			<li><a href="#CoC">Catacombs of Carthus</a> <span id="playthrough_nav_totals_14"></span></li>
@@ -41,30 +63,22 @@
 			<li><a href="#CoC-CoCB">Catacombs of Carthus - Catacombs of Carthus Bonfire</a> <span id="playthrough_nav_totals_16"></span></li>
 			<li><a href="#IotBV">Irithyll of the Boreal Valley</a> <span id="playthrough_nav_totals_17"></span></li>
 			<li><a href="#US-Abs">Undead Settlement - Absolution</a> <span id="playthrough_nav_totals_18"></span></li>
-			<hr>
 			<li><a href="#Pit_stop_3">Firelink Shrine pit stop 3</a> <span id="playthrough_nav_totals_19"></span></li>
-			<hr>
 			<li><a href="#HWoL-TotWB">High Wall of Lothric - Tower on the Wall Bonfire</a> <span id="playthrough_nav_totals_20"></span></li>
 			<li><a href="#CKG">Consumed King's Garden</a> <span id="playthrough_nav_totals_21"></span></li>
 			<li><a href="#UG">Untended Graves</a> <span id="playthrough_nav_totals_22"></span></li>
 			<li><a href="#LC">Lothric Castle</a> <span id="playthrough_nav_totals_23"></span></li>
-			<hr>
 			<li><a href="#Pit_stop_4">Firelink Shrine pit stop 4</a> <span id="playthrough_nav_totals_24"></span></li>
-			<hr>
 			<li><a href="#IotBV-CoYB">Irithyll of the Boreal Valley - Church of Yorshka Bonfire</a> <span id="playthrough_nav_totals_25"></span></li>
 			<li><a href="#IotBV-AL">Irithyll of the Boreal Valley - Anor Londo</a> <span id="playthrough_nav_totals_26"></span></li>
 			<li><a href="#ID">Irithyll Dungeon</a> <span id="playthrough_nav_totals_27"></span></li>
 			<li><a href="#AP">Archdragon Peak</a> <span id="playthrough_nav_totals_28"></span></li>
 			<li><a href="#LC-GA_Aldrich">Lothric Castle - Grand Archives (IF ALDRICH IS ALIVE KILL HIM)</a> <span id="playthrough_nav_totals_29"></span></li>
-			<li><a href="#RoS-Opt">Road of Sacrifices (OPTIONAL IF YOU'VE ALREADY RECRUITED ORBECK EARLIER INTO THE GAME)</a> <span id="playthrough_nav_totals_30"></span></li>
-			<hr>
+			<li><a href="#RoS-Opt">Road of Sacrifices (<span class="label label-warning">OPTIONAL</span> IF YOU'VE ALREADY RECRUITED ORBECK EARLIER INTO THE GAME)</a> <span id="playthrough_nav_totals_30"></span></li>
 			<li><a href="#Pit_stop_5">Firelink Shrine pit stop 5</a> <span id="playthrough_nav_totals_31"></span></li>
-			<hr>
 			<li><a href="#LC-GA">Lothric Castle - Grand Archives</a> <span id="playthrough_nav_totals_32"></span></li>
-			<hr>
 			<li><a href="#Pit_stop_6">Firelink Shrine pit stop 6</a> <span id="playthrough_nav_totals_33"></span></li>
-			<hr>
-			<li><a href="#IotBV">Irithyll of the Boreal Valley - Anor Londo</a> <span id="playthrough_nav_totals_34"></span></li>
+			<li><a href="#IotBV-AL_Marry">Irithyll of the Boreal Valley - Anor Londo</a> <span id="playthrough_nav_totals_34"></span></li>
 			<li><a href="#FS_Final">Final things to do in Firelink Shrine</a> <span id="playthrough_nav_totals_35"></span></li>
 		</ul>
 
@@ -78,27 +92,25 @@
 			<h3 id="CoA"><a href="#CoA_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Cemetery+of+Ash">Cemetery of Ash</a> <span id="playthrough_totals_1"></span></h3>
 			<ul id="CoA_col" class="collapse in">
 				<li data-id="playthrough_1_1">Grab Ashen Estus Flask (In front of the fountain)</li>
-				<li data-id="playthrough_1_2">Get Rest Gesture (Rest at Bonfire)</li>
-				<li data-id="playthrough_1_3">Kill Iudex Gundyr</li>
+				<li data-id="playthrough_1_2">Kill Iudex Gundyr</li>
 			</ul>
 
 			<h3 id="FS"><a href="#FS_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Firelink+Shrine">Firelink Shrine</a> <span id="playthrough_totals_2"></span></h3>
 			<ul id="FS_col" class="collapse in">
-				<li data-id="playthrough_2_1">OPTIONAL : Kill Sword Master Saber (Left of Firelink Shrine)</li>
+				<li data-id="playthrough_2_1"><span class="label label-warning">OPTIONAL</span> Kill Sword Master Saber (Left of Firelink Shrine)</li>
 				<li data-id="playthrough_2_2">Get Collapse Gesture (Speak to Hawkwood the Deserter)</li>
 				<li data-id="playthrough_2_3">Get Hurrah! Gesture (Speak to Blacksmith Andre)</li>
-				<li data-id="playthrough_2_4">Allot Estus</li>
+				<li data-id="playthrough_2_4"><span class="label label-warning">OPTIONAL</span> Allot Estus</li>
 			</ul>
 
 			<h3 id="HWoL"><a href="#HWoL_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/High+Wall+of+Lothric">High Wall of Lothric</a> <span id="playthrough_totals_3"></span></h3>
 			<ul id="HWoL_col" class="collapse in">
-				<li data-id="playthrough_3_1">OPTIONAL : Grab Longbow & Standard Arrows (To the right of the first Bonfire) so you can shoot down a hanging corpse carrying a Pale Tongue a little while later</li>
-				<li data-id="playthrough_3_2">Grab Cell Key (Activate Tower on the Wall Bonfire on the way)</li>
-				<li data-id="playthrough_3_3">Grab Estus Shard (Same room as Cell Key)</li>
-				<li data-id="playthrough_3_4">Recruit Greirat of the Undead Settlement</li>
-				<li data-id="playthrough_3_5">Get Small Lothric Banner (Speak to Emma)</li>
-				<li data-id="playthrough_3_6">Get Way of Blue Covenant (Speak to Emma again)</li>
-				<li data-id="playthrough_3_7">Kill Vordt of the Boreal Valley (You can summon Sword Master Saber & Lion Knight Albert)</li>
+				<li data-id="playthrough_3_1">Grab Cell Key (Activate Tower on the Wall Bonfire on the way)</li>
+				<li data-id="playthrough_3_2">Grab Estus Shard (Same room as Cell Key)</li>
+				<li data-id="playthrough_3_3">Recruit Greirat of the Undead Settlement</li>
+				<li data-id="playthrough_3_4">Get Small Lothric Banner (Speak to Emma)</li>
+				<li data-id="playthrough_3_5">Get Way of Blue Covenant (Speak to Emma again)</li>
+				<li data-id="playthrough_3_6">Kill Vordt of the Boreal Valley (You can summon Sword Master Saber & Lion Knight Albert)</li>
 			</ul>
 
 			<h3 id="US"><a href="#US_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Undead+Settlement">Undead Settlement</a> <span id="playthrough_totals_4"></span></h3>
@@ -121,7 +133,7 @@
 				<li data-id="playthrough_5_4">Grab Estus Shard (Behind broken down Chapel & activate Crucifixion Woods Bonfire on the way)</li>
 				<li data-id="playthrough_5_5">OPTIONAL: Recruit Orbeck of Vinheim (Located at top of the building before Crystal Sage) Requres 10 int or wait until getting a ring that boosts Intelligence</li>
 				<li data-id="playthrough_5_6">SIRRIS / HEYSEL QUEST REWARD DILEMMA : You need to kill Yellowfinger Heysel when you're embered if you want the Proper Bow Gesture. But if you want Sirris' questline to continue, you can ignore Heysel</li>
-				<li data-id="playthrough_5_7">Grab Farron Coal (Heavy, Sharp & Poison Infusions)</li>
+				<li data-id="playthrough_5_7">Grab Farron Coal (Heavy, Sharp & Poison Infusions) that is guarded by a Black Knight inside a ruined keep</li>
 				<li data-id="playthrough_5_8">Grab Great Swamp Pyromancy Tome (At the base of a tree to the right of the Exile Knights)</li>
 			</ul>
 			
@@ -145,7 +157,7 @@
 			<ul id="Pit_stop_1_col" class="collapse in">
 				<li data-id="playthrough_7_1">Give both Ashes to Shrine Handmaid</li>
 				<li data-id="playthrough_7_2">Purchase Grave Key (1500 Souls)</li>
-				<li data-id="playthrough_7_3">OPTIONAL : Give the Scrolls to Orbeck (If you've recruited him already)</li>
+				<li data-id="playthrough_7_3">Give the Scrolls to Orbeck (If you've recruited him already)</li>
 				<li data-id="playthrough_7_4">Upgrade Estus Flask & Bonfire intensity</li>
 			</ul>
 			
@@ -154,14 +166,14 @@
 				<li data-id="playthrough_8_1">Get Mound-makers Covenant (Speak to Holy Knight Hodrick after stepping into the cage on the back of a large non-hostile saw wielding creature)</li>
 				<li data-id="playthrough_8_2">Travel to last Bonfire using a Homeward Bone (You can get a Homeward Bone by exhausting Hodrick's dialogue)</li>
 				<li data-id="playthrough_8_3">Get Prayer Gesture (Recruit Irina of Carim)</li>
-				<li data-id="playthrough_8_4">OPTIONAL : Speak to Eygon of Carim for access to his summon sign at later bosses</li>
+				<li data-id="playthrough_8_4"><span class="label label-warning">OPTIONAL</span> Speak to Eygon of Carim for access to his summon sign at later bosses</li>
 				<li data-id="playthrough_8_5">Get Toast Gesture (Speak to Siegward after killing Fire Demon together)</li>
 				<li data-id="playthrough_8_6">Get Sleep Gesture (Speak to Siegward again)</li>
 				<li data-id="playthrough_8_7">Grab Pale Tongue from a hanging corpse near the large Bonfire (You can break some caskets and walk up onto the roof of the small house to reach the corpse)</li>
 				<li data-id="playthrough_8_8">Kill Curse-Rotted Greatwood</li>
 			</ul>
 			
-			<h3 id="RoS-CWB"><a href="#PRoS-CWB_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices">Road of Sacrifices - Crucifixion Woods Bonfire</a> <span id="playthrough_totals_9"></span></h3>
+			<h3 id="RoS-CWB"><a href="#RoS-CWB_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices">Road of Sacrifices - Crucifixion Woods Bonfire</a> <span id="playthrough_totals_9"></span></h3>
 			<ul id="RoS-CWB_col" class="collapse in">
 				<li data-id="playthrough_9_1">Kill Crystal Sage (You can summon Eygon in the room below Orbeck if you're not wearing an auto-summon Covenant such as Way of Blue)</li>
 			</ul>
@@ -173,12 +185,12 @@
 				<li data-id="playthrough_10_3">Grab Undead Bone Shard (In area that the Giant Archer shoots at)</li>
 				<li data-id="playthrough_10_4">Get Deep Braille Divine Tome (Kill or pacify the Mimic past the room with two Giants)</li>
 				<li data-id="playthrough_10_5">Kill Longfinger Kirk for his drops (You need to be embered for him to invade)</li>
-				<li data-id="playthrough_10_6">OPTIONAL : Grab Pale Tongue from in the deep water (Just behind the giant closest to the Deacon's of the Deep room)</li>
+				<li data-id="playthrough_10_6"><span class="label label-warning">OPTIONAL</span> Grab Pale Tongue in the deep water (Just behind the giant closest to the Deacon's of the Deep room)</li>
 				<li data-id="playthrough_10_7">Take Elevator up and open the large doors (They lead outside to the area the Giant Archer shoots at)</li>
 				<li data-id="playthrough_10_8">Get tricked by Unbreakable Patches disguised as Siegward (By walking over the raised bridge)</li>
-				<li data-id="playthrough_10_9">Travel back to Firelink Shrine (Open 2nd shortcut to Cleansing Chapel Bonfire on the way)</li>
-				<li data-id="playthrough_10_10">OPTIONAL IF YOU PICKED UP AT LEAST 1 OF PREVIOUS PALE TONGUES : Grab Pale Tongue from the end of the path leading to the rafters that you need to cross to get to Rosaria's Bedchamber</li>
-				<li data-id="playthrough_10_11">Get Rosaria's Fingers Covenant (Speak to Rosaria, Mother of Rebirth)</li>
+				<li data-id="playthrough_10_9">Get Rosaria's Fingers Covenant by speaking to Rosaria, Mother of Rebirth (And open 2nd shortcut to Cleansing Chapel Bonfire on the way)</li>
+				<li data-id="playthrough_10_10"><span class="label label-warning">OPTIONAL</span> Grab Pale Tongue from the end of the path leading to the rafters that you need to cross to get to Rosaria's Bedchamber</li>
+				<li data-id="playthrough_10_11">Get Red Sign Soapstone (Kill the non-hostile worm-creature)</li>
 				<li data-id="playthrough_10_12">Get Prostration Gesture (Speak to Patches)</li>
 				<li data-id="playthrough_10_13">Purchase all 4 pieces of the Catarina set from Patches (15000 Souls in total and you could purchase these after killing the Deacons of the Deep)</li>
 				<li data-id="playthrough_10_14">Get Rejoice Gesture (Speak to Siegward calling you from inside the well near the Cleansing Chapel Bonfire)</li>
@@ -189,13 +201,13 @@
 			<ul id="Pit_stop_2_col" class="collapse in">
 				<li data-id="playthrough_11_1">Draw out true strength at Yoel five times (And in between you let your character fall to it's death / further the questlines below)</li>
 				<li data-id="playthrough_11_2">Give Paladin's Ashes to Shrine Handmaid</li>
-				<li data-id="playthrough_11_3">OPTIONAL : Purchase Dried Finger (2000 Souls)</li>
+				<li data-id="playthrough_11_3"><span class="label label-warning">OPTIONAL</span> Purchase Dried Finger (2000 Souls)</li>
 				<li data-id="playthrough_11_4">Exhaust Sirris' dialogue (Get Darkmoon Loyalty Gesture)</li>
 				<li data-id="playthrough_11_5">SIRRIS / HEYSEL QUEST REWARD DILEMMA : Kill Sirris if you plan to get the Proper Bow Gesture</li>
 				<li data-id="playthrough_11_6">Speak to Anri</li>
 				<li data-id="playthrough_11_7">Give Transposing Kiln to Ludleth of Courland</li>
-				<li data-id="playthrough_11_8">Exhaust Hawkwood's dialogue</li>
-				<li data-id="playthrough_11_9">Get 5 Cracked Red-Eye Orbs (Speak to Ringfinger Leonhard)</li>
+				<li data-id="playthrough_11_8">Get 5 Cracked Red-Eye Orbs (Speak to Ringfinger Leonhard)</li>
+				<li data-id="playthrough_11_9">Exhaust Hawkwood's dialogue</li>
 				<li data-id="playthrough_11_10">Get Beckon Gesture (Speak to Yoel)</li>
 				<li data-id="playthrough_11_11">Give Loretta's Bone to Greirat</li>
 				<li data-id="playthrough_11_12">Give Coals to Andre</li>
@@ -233,7 +245,7 @@
 				<li data-id="playthrough_14_2">Speak to Anri (Located in an alcove at the top of the Boulder Bridge)</li>
 				<li data-id="playthrough_14_3">Grab Undead Bone Shard (Kill skeleton wearing a hat at bottom of Boulder Bridge and wait for Skeletal Boulder to crash into the gate)</li>
 				<li data-id="playthrough_14_4">Grab Grave Warden's Ashes (Follow the boulder down from the Catacombs of Carthus Bonfire and it'll be up the stairs on the far left)</li>
-				<li data-id="playthrough_14_5">OPTIONAL : Kill Knight Slayer Tsorig for his summon sign at Old Demon King & the My thanks! Gesture. Or you can kill him in Smouldering Lake.</li>
+				<li data-id="playthrough_14_5"><span class="label label-warning">OPTIONAL</span> Kill Knight Slayer Tsorig for his summon sign at Old Demon King & the My thanks! Gesture. Or you can kill him in Smouldering Lake.</li>
 			</ul>
 			
 			<h3 id="SL"><a href="#SL_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Smouldering+Lake">Smouldering Lake</a> <span id="playthrough_totals_15"></span></h3>
@@ -244,8 +256,8 @@
 				<li data-id="playthrough_15_4">Grab Izalith Pyromancy Tome (Located in middle of room adjacent to Old King's Antechamber Bonfire)</li>
 				<li data-id="playthrough_15_5">Grab Estus Shard (Behind illusory wall near Old King's Antechamber Bonfire)</li>
 				<li data-id="playthrough_15_6">Grab Quelana Pyromancy Tome (In the room hidden behind an illusory wall, the room above the Giant Rat)</li>
-				<li data-id="playthrough_15_7">OPTIONAL IF YOU'VE KILLED KNIGHT SLAYER TSORIG EARLIER : Get My Thanks! Gesture (Kill Knight Slayer Tsorig just past the Basilisk room)</li>
-				<li data-id="playthrough_15_8">OPTIONAL : Summon Great Swamp Cuculus and make sure she survives when you kill the Old Demon King (This way Cornyx' Set will be obtainable in the Undead Settlement)</li>
+				<li data-id="playthrough_15_7"><span class="label label-warning">OPTIONAL</span> IF YOU'VE KILLED KNIGHT SLAYER TSORIG EARLIER : Get My Thanks! Gesture (Kill Knight Slayer Tsorig just past the Basilisk room)</li>
+				<li data-id="playthrough_15_8"><span class="label label-warning">OPTIONAL</span> Summon Great Swamp Cuculus and make sure she survives when you kill the Old Demon King (This way Cornyx' Set will be obtainable in the Undead Settlement)</li>
 			</ul>
 			
 			<h3 id="CoC-CoCB"><a href="#CoC-CoCB_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Catacombs+of+Carthus">Catacombs of Carthus - Catacombs of Carthus Bonfire</a> <span id="playthrough_totals_16"></span></h3>
@@ -288,8 +300,8 @@
 				<li data-id="playthrough_20_3">Kill Dancer of the Boreal Valley (You can summon other players before placing the Basin down behind where Emma used to be)</li>
 			</ul>
 			
-			<h3 id="CKG"><a href="#_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Consumed+King's+Garden">Consumed King's Garden</a> <span id="playthrough_totals_21"></span></h3>
-			<ul id="Pit_stop_3_col" class="collapse in">
+			<h3 id="CKG"><a href="#CKG_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Consumed+King's+Garden">Consumed King's Garden</a> <span id="playthrough_totals_21"></span></h3>
+			<ul id="CKG_col" class="collapse in">
 				<li data-id="playthrough_21_1">Grab Estus Shard (Just right of where you jump off the first elevator about halfway on it's way down)</li>
 				<li data-id="playthrough_21_2">Kill Oceiros the Consumed King (Hawkwood's summon sign is located in the middle of the open platform just before the two knights guarding Oceiros)</li>
 				<li data-id="playthrough_21_3">Grab Path of the Dragon Gesture (In front of the fountain)</li>
@@ -319,7 +331,7 @@
 				<li data-id="playthrough_24_5">Grab Fire Keeper Soul (Use Tower Key)</li>
 				<li data-id="playthrough_24_6">Speak to Patches (And refuse to forgive him if you want a Rusted Gold Coin)</li>
 				<li data-id="playthrough_24_7">Kick down ladder on the roof where the Crow's Nest is</li>
-				<li data-id="playthrough_24_8">OPTIONAL : Grab Homeward Bone right of the Ladder if you don't have any</li>
+				<li data-id="playthrough_24_8"><span class="label label-warning">OPTIONAL</span> Grab Homeward Bone right of the Ladder if you don't have any</li>
 				<li data-id="playthrough_24_9">Get Call Over Gesture (Leave Homeward Bone in Crow's Nest)</li>
 				<li data-id="playthrough_24_10">Grab Estus Shard (Located up on the rafters of Firelink Shrine)</li>
 				<li data-id="playthrough_24_11">Give Fire Keeper's Soul & Eyes to the Fire Keeper</li>
@@ -336,11 +348,11 @@
 				<li data-id="playthrough_25_4">Grab Easterner's Ashes (Near the Silver Knight Archers)</li>
 			</ul>
 			
-			<h3 id="IotBV-AL"><a href="#IotBV_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley">Irithyll of the Boreal Valley - Anor Londo</a> <span id="playthrough_totals_26"></span></h3>
-			<ul id="IotBV_col" class="collapse in">
+			<h3 id="IotBV-AL"><a href="#IotBV-AL_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley">Irithyll of the Boreal Valley - Anor Londo</a> <span id="playthrough_totals_26"></span></h3>
+			<ul id="IotBV-AL_col" class="collapse in">
 				<li data-id="playthrough_26_1">Grab Giant's Coal (Lightning, Simple, Chaos Infusions) from the corpse of the Giant Blacksmith</li>
 				<li data-id="playthrough_26_2">Grab Estus Shard (Located in a chest in the main hall at ground level)</li>
-				<li data-id="playthrough_26_3">OPTIONAL : Kill Aldrich, Devourer of Gods now or later (Depending on whether you want to continue utilizing the Irithyll of the Boreal Valley / Anor Londo PVP hotspot)</li>
+				<li data-id="playthrough_26_3"><span class="label label-warning">OPTIONAL</span> Kill Aldrich, Devourer of Gods now or later (Depending on whether you want to continue utilizing the Irithyll of the Boreal Valley / Anor Londo PVP hotspot)</li>
 				<li data-id="playthrough_26_4">Get Blade of the Darkmoon Covenant (Take rotating platform back down and walk across an invisible bridge, then speak to Company Captain Yorshka)</li>
 				<li data-id="playthrough_26_5">Exhaust Siegward's dialogue (He's still in the kitchen near the Distant Manor Bonfire)</li>
 			</ul>
@@ -369,10 +381,10 @@
 				<li data-id="playthrough_28_3">Get Twinkling Dragon Torso Stone (Hawkwood can be summoned to guide the way and his summon sign is just outside the Great Belfry Bonfire room)</li>
 			</ul>
 			
-			<h3 id="LC-GA_Aldrich"><a href="#LC0-GA_Aldrich_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Lothric+Castle">Lothric Castle - Grand Archives (IF ALDRICH IS ALIVE KILL HIM)</a> <span id="playthrough_totals_29"></span></h3>
+			<h3 id="LC-GA_Aldrich"><a href="#LC-GA_Aldrich_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Lothric+Castle">Lothric Castle - Grand Archives (IF ALDRICH IS ALIVE KILL HIM)</a> <span id="playthrough_totals_29"></span></h3>
 			<ul id="LC-GA_Aldrich_col" class="collapse in">
 				<li data-id="playthrough_29_1">Get Crystal Scroll (Kill Crystal Sage)</li>
-				<li data-id="playthrough_29_2">OPTIONAL : If you haven't got 10 Intelligence, grab the Scholar Ring (It's located behind a bookcase shortcut that requires pulling a lever and it's located on one end of the wooden bridge, opposite of the elevator shortcut)</li>
+				<li data-id="playthrough_29_2"><span class="label label-warning">OPTIONAL</span> If you haven't got 10 Intelligence, grab the Scholar Ring (It's located behind a bookcase shortcut that requires pulling a lever and it's located on one end of the wooden bridge, opposite of the elevator shortcut)</li>
 			</ul>
 			
 			<h3 id="RoS_Opt"><a href="#RoS_Opt_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices">Road of Sacrifices (OPTIONAL IF YOU'VE ALREADY RECRUITED ORBECK)</a> <span id="playthrough_totals_30"></span></h3>
@@ -389,49 +401,49 @@
 				<li data-id="playthrough_31_5">Give the Pyromancy Tomes to Karla</li>
 				<li data-id="playthrough_31_6">Give the Scrolls to Orbeck</li>
 				<li data-id="playthrough_31_7">Get Silent Ally Gesture (Purchase from Orbeck for 18000 Souls in total : Farron Flashsword, Aural Decoy & Pestilent Mercury as well as all of the spells cheaper than 3000 Souls)</li>
-				<li data-id="playthrough_31_8">OPTIONAL : Purchase the rest of Orbecks spells (85000 more Souls) and exhaust his dialogue so he can be summoned for the Twin Princes fight</li>
+				<li data-id="playthrough_31_8"><span class="label label-warning">OPTIONAL</span> Purchase the rest of Orbecks spells (85000 more Souls) and exhaust his dialogue so he can be summoned for the Twin Princes fight</li>
 				<li data-id="playthrough_31_9">Give Coals to Andre</li>
 				<li data-id="playthrough_31_10">Upgrade Estus Flask</li>
 				<li data-id="playthrough_31_11">Send Greirat away to scavenge</li>
 				<li data-id="playthrough_31_12">Upgrade Bonfire intensity</li>
 			</ul>
 			
-			<h3 id="Pit_stop_5"><a href="#Pit_stop_5_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Firelink+Shrine">Lothric Castle - Grand Archives</a> <span id="playthrough_totals_32"></span></h3>
-			<ul id="Pit_stop_5_col" class="collapse in">
+			<h3 id="LC-GA"><a href="#LC-GA_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Firelink+Shrine">Lothric Castle - Grand Archives</a> <span id="playthrough_totals_32"></span></h3>
+			<ul id="LC-GA_col" class="collapse in">
 				<li data-id="playthrough_32_1">Grab Greirat's Ashes (Located on a lower roof of the Grand Archives, after you drop down from the upper roof)</li>
 				<li data-id="playthrough_32_2">Grab Undead Bone Shard (On a corpse sitting in a chair at the top of Grand Archives after venturing over the rooftops)</li>
 				<li data-id="playthrough_32_3">Grab Estus Shard (Located on the roof of the Grand Archives near the three Gertrude's Winged Knights)</li>
 				<li data-id="playthrough_32_4">Kill the Twin Princes (You can summon Orbeck for this fight if you purchased all his spells and spoke to him about leaving)</li>
-				<li data-id="playthrough_32_5">OPTIONAL : Grab Orbeck's Ashes (From his corpse in the Grand Archives, just past the first elevator shortcut) if you caused him to leave Firelink Shrine</li>
+				<li data-id="playthrough_32_5"><span class="label label-warning">OPTIONAL</span> Grab Orbeck's Ashes (From his corpse in the Grand Archives, just past the first elevator shortcut) if you caused him to leave Firelink Shrine</li>
 			</ul></li>
 			</li>
 			<h3 id="Pit_stop_6"><a href="#Pit_stop_6_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Firelink+Shrine">Firelink Shrine pit stop 6</a> <span id="playthrough_totals_33"></span></h3></li>
 			<ul id="Pit_stop_6_col" class="collapse in"></li>
 				<li data-id="playthrough_33_1">DO NOT give Orbeck's Ashes to the Shrine Handmaid (Give them to Yuria instead)</li>
-				<li data-id="playthrough_33_2">OPTIONAL : Kill Orbeck if you don't already have his Ashes (But be sure to buy any spells from him that you might still need because they'll get lost)</li>
+				<li data-id="playthrough_33_2"><span class="label label-warning">OPTIONAL</span> Kill Orbeck if you don't already have his Ashes (But be sure to buy any spells from him that you might still need because they'll get lost)</li>
 				<li data-id="playthrough_33_3">Give Greirat's Ashes to Shrine Handmaid</li>
 				<li data-id="playthrough_33_4">Upgrade Estus Flask & Bonfire intensity for the last time</li>
 			</ul>
 			
-			<h3 id="Pit_stop_6"><a href="#Pit_stop_6_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley">Irithyll of the Boreal Valley - Anor Londo</a> <span id="playthrough_totals_34"></span></h3>
-			<ul id="Pit_stop_6_col" class="collapse in">
+			<h3 id="IotBV-AL_Marry"><a href="#IotBV-AL_Marry_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley">Irithyll of the Boreal Valley - Anor Londo</a> <span id="playthrough_totals_34"></span></h3>
+			<ul id="IotBV-AL_Marry_col" class="collapse in">
 				<li data-id="playthrough_34_1">Get Sword of Avowal (Speak to the Pilgrim Assassin)</li>
 				<li data-id="playthrough_34_2">Perform marriage ceremony with Anri's corpse</li>
 			</ul>
 			
-			<h3 id="Pit_stop_6"><a href="#Pit_stop_6_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Firelink+Shrine">Final things to do in Firelink Shrine</a> <span id="playthrough_totals_35"></span></h3>
-			<ul id="Pit_stop_6_col" class="collapse in">
+			<h3 id="FS_Final"><a href="#FS_Final_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://darksouls3.wiki.fextralife.com/Firelink+Shrine">Final things to do in Firelink Shrine</a> <span id="playthrough_totals_35"></span></h3>
+			<ul id="FS_Final_col" class="collapse in">
 				<li data-id="playthrough_35_1">Kill Unbreakable Patches (If it's not for his annoying location in Firelink Shrine, it's for revenge or because he's ripping us off)</li>
 				<li data-id="playthrough_35_2">Kill Yuria for her Ashes (And drops)</li>
 				<li data-id="playthrough_35_3">Give both Ashes to Shrine Handmaid</li>
 			</ul>
 		</div>
-	</div>
-	</div>
-	</div>
-
-	<div class="hiddenfile">
-		<input name="upload" type="file" id="fileInput" />
+		<br>
+		<div>
+			<p>You've made it! Whish to start over? Click the reset run button</p>
+			<button id="resetlist" class="btn btn-primary">Reset list</button>
+		</div>
+		<br>
 	</div>
 
 	<a href="#" class="back-to-top">Back to Top</a>
@@ -443,14 +455,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.8.0/jets.min.js"></script>
 	<script src="js/jquery.highlight.js"></script>
 	<script src="js/main.js"></script>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-66576837-1', 'auto');
-  ga('send', 'pageview');
-	</script>
 </body>
 
 </html>

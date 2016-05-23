@@ -127,3 +127,8 @@ input[type="checkbox"]:checked ~ .glyphicon-eye-close { display: inline-block; }
 input[type="checkbox"] ~ .glyphicon-eye-open { display: inline-block; }
 
 input[type="checkbox"]:checked ~ .glyphicon-eye-open { display: none; }
+
+span.label {
+  position: relative;
+  top: -1px;
+}
